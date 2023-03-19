@@ -1,0 +1,83 @@
+body {
+    background-color: #297373 !important;
+    font-family:cursive !important;
+}
+
+header {
+    background-image: url(assets/To-do\ list.png);
+    background-size: cover;
+    height: 380px;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 50px;
+}
+
+form {
+    padding-top: 280px;
+    text-align: center;
+}
+
+.textInput {
+    width: 640px;
+    height: 60px;
+    background-color: #E6E6E6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.textInput:hover {
+    box-shadow: 5px 5px 10px #ff8652b5;
+}
+
+.addInput {
+    font-size: 24px;
+    width: 500px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #E6E6E6;
+}
+
+.addButton {
+    height: 40px;
+    width: 80px;
+    background-color: #FF8552;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.addButton:hover {
+    background-color: #ff4d00c4
+}
+
+
+    /* List Styles */
+
+
+li {
+    width: 800px;
+    height: 60px;
+    background-color: #85FFC7;
+    list-style-type: none;
+    padding: 18px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+li:hover {
+    box-shadow: 2px 0px 10px #E6E6E6;
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: lightgray;
+}
+
+

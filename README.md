@@ -1,2 +1,4 @@
-# SimpleToDoList
-Patika.dev için To Do Lıst 
+# Simple To-Do List
+
+!()[]
+
